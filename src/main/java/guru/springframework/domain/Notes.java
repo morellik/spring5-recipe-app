@@ -1,5 +1,6 @@
 package guru.springframework.domain;
 
+
 import javax.persistence.*;
 
 @Entity

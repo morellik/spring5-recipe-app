@@ -1,18 +1,12 @@
-package guru.springframework.domain;
+package guru.springframework.commands;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+public class UnitOfMeasureCommand {
 
-@Entity
-public class UnitOfMeasure {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String description;
+
+    public UnitOfMeasureCommand() {
+    }
 
     public Long getId() {
         return id;
